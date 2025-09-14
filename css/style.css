@@ -1,44 +1,56 @@
-header {
+#page1_header {
     background-color: #f38bec;
     display: inline-block;
     text-align: center;
     margin: 20px;
 }
 
-.body {
+#page2_header {
+    background-color: #d46ce9;
+    display: inline-block;
     text-align: center;
+    margin: 20px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 
 ul {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     list-style-position: inside;
     display: inline-flex;
     margin: 10px;
 }
 
+ol {
+    background-color: #821997;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 20px;
+    margin: 20px;
+}
+
 body {
     background-color: #edc3ec;
+    text-align: center;
 }
 
 * {
@@ -50,7 +62,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 #intro_img {
@@ -66,8 +78,35 @@ body {
     display: inline-block
 }
 
+#page1_intro {
+    background-color: #c93abf;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+#page2_content {
+    background-color: #a634bd;
+    text-align: center;
+    display: inline-block
+}
+
+#page2_intro {
+    background-color: #9928af;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
 #main_cast {
     background-color: #f38bec;
+    text-align: center;
+    margin: 20px;
+    display: inline-block
+}
+
+#top5 {
+    background-color: #d46ce9;
     text-align: center;
     margin: 20px;
     display: inline-block
@@ -81,18 +120,48 @@ body {
     text-align: center;
 }
 
-.button {
-  background-color: #dd4dd3;
+.cast2 {
+    background-color: #e493f4;
+    display: inline-block;
+    margin: 20px;
+    width: 75%;
+    text-align: center;
+}
+
+.button1 {
+  background-color: #b42eab;
   color: #000000;
   padding: 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   display: inline-block;
   margin: 10px;
 }
 
-.footer {
+.button2 {
+    background-color: #821997;
+    color:#000000;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer1 {
     background-color: #f38bec;
     text-align: center;
+    display: inline-block;
+    margin: 20px;
+    width: 1000px;
+}
+
+.footer2 {
+    background-color: #d46ce9;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    width: 1000px;
 }
