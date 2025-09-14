@@ -37,11 +37,12 @@ body {
     font-family: sans-serif;
 }
 
-img {
+.imgflex {
     width: 10%;
     border-radius: 8px;
     display: flex;
-    margin: auto
+    margin: auto;
+    gap: 20px;
 }
 
 #intro_img {
