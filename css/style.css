@@ -1,5 +1,11 @@
 header {
     background-color: #f38bec;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.body {
     text-align: center;
 }
 
@@ -27,10 +33,12 @@ ul {
     font-size: 15px;
     text-align: center;
     list-style-position: inside;
+    display: inline-flex;
+    margin: 10px;
 }
 
 body {
-    background-color: #e6abe4;
+    background-color: #edc3ec;
 }
 
 * {
@@ -46,8 +54,45 @@ body {
 }
 
 #intro_img {
-    width: 30%;
+    width: 40%;
     border-radius: 8px;
     display: block;
     margin: auto
+}
+
+#page1_content {
+    background-color: #dd4dd3;
+    text-align: center;
+    display: inline-block
+}
+
+#main_cast {
+    background-color: #f38bec;
+    text-align: center;
+    margin: 20px;
+    display: inline-block
+}
+
+.cast {
+    background-color: #f5a3ef;
+    display: inline-block;
+    margin: 20px;
+    width: 75%;
+    text-align: center;
+}
+
+.button {
+  background-color: #dd4dd3;
+  color: #000000;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.footer {
+    background-color: #f38bec;
+    text-align: center;
 }
