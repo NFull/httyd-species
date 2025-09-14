@@ -38,6 +38,7 @@ ul {
     list-style-position: inside;
     display: inline-flex;
     margin: 10px;
+    gap: 20px;
 }
 
 ol {
