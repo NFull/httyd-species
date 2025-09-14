@@ -38,11 +38,11 @@ body {
 }
 
 .imgflex {
-    width: 50%;
+    width: 85%;
     border-radius: 8px;
     display: flex;
     margin: auto;
-    gap: 20px;
+    gap: 10px;
 }
 
 #intro_img {
