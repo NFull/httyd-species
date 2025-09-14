@@ -40,6 +40,13 @@ body {
 img {
     width: 10%;
     border-radius: 8px;
+    display: flex;
+    margin: auto
+}
+
+#intro_img {
+    width: 30%;
+    border-radius: 8px;
     display: block;
     margin: auto
 }
