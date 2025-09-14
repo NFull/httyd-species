@@ -23,6 +23,11 @@ p {
     text-align: center;
 }
 
+ul {
+    font-size: 15px;
+    text-align: center;
+}
+
 body {
     background-color: #e6abe4;
 }
