@@ -26,6 +26,7 @@ p {
 ul {
     font-size: 15px;
     text-align: center;
+    list-style-position: inside;
 }
 
 body {
