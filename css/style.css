@@ -1,3 +1,4 @@
+/* header ids */
 #page1_header {
     background-color: #f38bec;
     display: inline-block;
@@ -12,6 +13,8 @@
     margin: 20px;
 }
 
+
+/* general text, font, list, paragraph and body customizations */
 h1 {
     font-size: 50px;
     text-align: center;
@@ -58,6 +61,8 @@ body {
     font-family: sans-serif;
 }
 
+
+/* creating a flexbox for the images to format them side-by-side */
 .imgflex {
     border-radius: 40px;
     display: flex;
@@ -66,6 +71,8 @@ body {
     gap: 30px;
 }
 
+
+/* index introduction, content structure, and related class/ids */
 #intro_img {
     width: 40%;
     border-radius: 8px;
@@ -86,19 +93,6 @@ body {
     margin: 20px;
 }
 
-#page2_content {
-    background-color: #a634bd;
-    text-align: center;
-    display: inline-block
-}
-
-#page2_intro {
-    background-color: #9928af;
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-}
-
 #main_cast {
     background-color: #f38bec;
     text-align: center;
@@ -106,23 +100,8 @@ body {
     display: inline-block
 }
 
-#top5 {
-    background-color: #d46ce9;
-    text-align: center;
-    margin: 20px;
-    display: inline-block
-}
-
 .cast {
     background-color: #f5a3ef;
-    display: inline-block;
-    margin: 20px;
-    width: 75%;
-    text-align: center;
-}
-
-.cast2 {
-    background-color: #e493f4;
     display: inline-block;
     margin: 20px;
     width: 75%;
@@ -140,6 +119,44 @@ body {
   margin: 10px;
 }
 
+.footer1 {
+    background-color: #f38bec;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    width: 1000px;
+}
+
+
+/* page2 introduction, content structure, and related class/ids */
+#page2_content {
+    background-color: #a634bd;
+    text-align: center;
+    display: inline-block
+}
+
+#page2_intro {
+    background-color: #9928af;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+#top5 {
+    background-color: #d46ce9;
+    text-align: center;
+    margin: 20px;
+    display: inline-block
+}
+
+.cast2 {
+    background-color: #e493f4;
+    display: inline-block;
+    margin: 20px;
+    width: 75%;
+    text-align: center;
+}
+
 .button2 {
     background-color: #821997;
     color:#000000;
@@ -149,14 +166,6 @@ body {
     font-size: 20px;
     display: inline-block;
     margin: 10px;
-}
-
-.footer1 {
-    background-color: #f38bec;
-    text-align: center;
-    display: inline-block;
-    margin: 20px;
-    width: 1000px;
 }
 
 .footer2 {
