@@ -4,6 +4,7 @@
     display: inline-block;
     text-align: center;
     margin: 20px;
+    width: 90%;
 }
 
 #page2_header {
@@ -11,6 +12,7 @@
     display: inline-block;
     text-align: center;
     margin: 20px;
+    width: 90%;
 }
 
 
@@ -63,13 +65,13 @@ body {
 }
 
 
-/* creating a flexbox for the images to format them side-by-side */
-.imgflex {
+/* creating a flexbox for each cast section to format them side-by-side */
+.castflex {
     border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 
@@ -126,7 +128,7 @@ body {
     text-align: center;
     display: inline-block;
     margin: 20px;
-    width: 1000px;
+    width: 90%;
 }
 
 
@@ -176,5 +178,20 @@ body {
     text-align: center;
     display: inline-block;
     margin: 20px;
-    width: 1000px;
+    width: 90%;
+}
+
+
+/* media query */
+@media (max-width: 800px) {
+  body {
+    font-size: 16px;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .castflex {
+    flex-direction: column;
+    flex: 1;
+  }
 }
