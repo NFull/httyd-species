@@ -142,6 +142,7 @@ body {
 #page2_intro {
     background-color: #9928af;
     display: inline-block;
+    font-weight: bold;
     text-align: center;
     margin: 20px;
 }
