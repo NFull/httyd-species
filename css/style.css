@@ -45,10 +45,11 @@ ul {
 }
 
 ol {
-    background-color: #821997;
+    background-color: #B640CE;
     text-align: center;
     list-style-position: inside;
     font-size: 20px;
+    font-weight: bold;
     margin: 20px;
 }
 
@@ -109,12 +110,13 @@ body {
 }
 
 .button1 {
-  background-color: #b42eab;
+  background-color: #dd4dd3;
   color: #000000;
   padding: 15px;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bold;
   display: inline-block;
   margin: 10px;
 }
@@ -158,12 +160,13 @@ body {
 }
 
 .button2 {
-    background-color: #821997;
+    background-color: #B640CE;
     color:#000000;
     padding: 15px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
     display: inline-block;
     margin: 10px;
 }
