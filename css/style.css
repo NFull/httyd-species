@@ -77,16 +77,6 @@ body {
 }
 
 
-/* creating a flexbox for each cast section to format them side-by-side */
-.castflex {
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-
 /* index introduction, content structure, and related class/ids */
 #intro_img {
     width: 65%;
