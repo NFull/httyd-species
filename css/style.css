@@ -25,11 +25,13 @@ h1 {
 h2 {
     font-size: 40px;
     text-align: center;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 p {
@@ -48,11 +50,17 @@ ul {
 
 ol {
     background-color: #B640CE;
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
     font-size: 20px;
-    font-weight: bold;
     margin: 20px;
+    font-weight: bold;
+    padding-left: 40%;
+    padding-right: 35%;
+}
+
+li {
+    margin: 15px;
 }
 
 body {
@@ -195,7 +203,7 @@ body {
     padding: 15px;
   }
 
-  .castflex {
+  .row {
     flex-direction: column;
     flex: 1;
     text-align: center;
