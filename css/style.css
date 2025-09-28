@@ -62,6 +62,7 @@ body {
 
 * {
     font-family: sans-serif;
+    color: black;
 }
 
 
@@ -197,4 +198,27 @@ body {
     text-align: center;
     justify-content: center;
   }
+}
+
+/* bootstrap customizations */
+.btn-1 {
+    background-color: #dd4dd3;
+    font-size: 20px; 
+    color: black;
+}
+
+.btn-1:hover {
+    background-color: #e958df;
+    color: black;
+}
+
+.btn-2 {
+    background-color: #B640CE;
+    font-size: 20px; 
+    color: black;
+}
+
+.btn-2:hover {
+    background-color: #cd54e5;
+    color: black;
 }
